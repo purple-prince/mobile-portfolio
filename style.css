@@ -2,3 +2,8 @@ body {
   background-color: #191e23;
   color: white; /*$d6d6d6*/
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
