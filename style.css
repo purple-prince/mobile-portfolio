@@ -1,8 +1,8 @@
 body {
   background-color: #191e23;
   color: white; /*$d6d6d6*/
-  font-family: "Century Gothic";
-  font-size: 48p;
+  font-family: Arial;
+  font-size: 48px;
   background-image: radial-gradient(circle, #5013dd, #8121e8);
 }
 
