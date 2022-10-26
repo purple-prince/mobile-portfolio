@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.header-self-description {
+  font-size: 16px;
+}
+
 body {
   /*background-color: #2B115D;*/
   /*background-color: rgb(44, 17, 93);*/
