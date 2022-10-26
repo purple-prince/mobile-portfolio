@@ -6,7 +6,7 @@
 body {
   /*background-color: #2B115D;*/
   /*background-color: rgb(44, 17, 93);*/
-  background-color: rgb(200, 17, 93);
+  background-color: rgb(150, 17, 93);
   color: #F5EFFF;
   font-family: Arial;
   font-size: 48px;
@@ -14,7 +14,7 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
