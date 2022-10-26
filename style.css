@@ -4,14 +4,18 @@
 }
 
 body {
-  background-color: #2B115D;
+  /*background-color: #2B115D;*/
+  background-color: #FF0000;
   color: #F5EFFF;
   font-family: Arial;
   font-size: 48px;
-  /*background-image: radial-gradient(circle, #5013dd, #8121e8);*/
+  
 }
 
 img {
   width: 100%;
   height: auto;
 }
+
+
+/*background-image: radial-gradient(circle, #5013dd, #8121e8);*/
