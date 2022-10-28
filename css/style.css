@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .header-self-description {
@@ -8,18 +8,28 @@
 }
 
 body {
-  /*background-color: #2B115D;*/
-  /*background-color: rgb(44, 17, 93);*/
-  background-color: rgb(29, 0, 63);
-  color: #F5EFFF;
-  font-family: Arial;
-  font-size: 48px;
+    background-color: rgb(29, 0, 63);
+    color: #F5EFFF;
+    font-family: Arial;
+    font-size: 48px;
+  }
   
-}
-
 img {
   width: 100%;
   height: auto;
+}
+
+.main-div {
+  display: flex;
+  justify-content: left;
+}
+
+.left-sidebar {
+  padding-left: 12px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 
