@@ -2,9 +2,10 @@
 <html>
 
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
       <link href='https://purple-prince.github.io/mobile-portfolio/css/style.css' rel='stylesheet'>
       <title>Charlie Reeder's Portfolio</title>
+      <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
   </head>
 
   
@@ -72,80 +73,22 @@
           <p class="header-self-description hero-line">I'm a software engineer specializing in building, designing, and maintaining full-stack mobile apps.</p>
         </div>      
       
-        <img src="https://purple-prince.github.io/mobile-portfolio/assets/newspline.png" alt="Phone Graphic">
 
-
-        <div class="skills-graph">
-          
-          <table>
-            <tr class="skill-row">
-              <td class="skill-name skill-item">Swift</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">90%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">SwiftUI</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">95%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">Cocoa</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">70%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">iCloud</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">50%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">Java</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">50%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">Android</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">70%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">Google Cloud</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">80%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">Python</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">80%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">Sketch</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">60%</td>
-            </tr>
-
-            <tr class="skill-row">
-              <td class="skill-name skill-item">3D Design</td>
-              <td class="skill-bar skill-item"></td>
-              <td class="skill-percent skill-item">70%</td>
-            </tr>
-          </table>
-
+         <div class="sexy-graphics">
+          <img id="phone-graphic" src="https://purple-prince.github.io/mobile-portfolio/assets/newspline.png" alt="Phone Graphic">
+        
+          <span id="skill-sphere" class="content"></span>
         </div>
+        
+        <div class="grid" id="grid-id">
+          <img src="/assets/binary1.svg" class="grid__item" alt="Mouse Trail"/>
+        </div>
+        
       </div>
     </div>
 
-
-    <script src="https://purple-prince.github.io/mobile-portfolio/js/index.js">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="https://purple-prince.github.io/mobile-portfolio/js/index.js"></script>
 
 
   </body>
