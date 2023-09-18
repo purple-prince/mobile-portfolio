@@ -82,10 +82,10 @@ function changeText(txt) {
       changeDescriptionTo("A general purpose social media app created for my high school and it's community. Complete with news, polls, r/w posts, events. I learned about back-end architecture in a complex social media app, as well as how to implement a CMS. Supported by ads.");
       break;
     case "monopoly":
-      changeNameTo("Monopoly Stats & Info");
-      changeUseTo(" Nerd analysis to optimize monopoly games");
-      changeStatusTo("App/Play Store Status - Active");
-      changeDescriptionTo("Allows players to input game data, and provides predictions, analyses, insights, and more into their games. First app published, so I mostly learned about the app maintanence process and what it takes to create an app from first lines of code to being published. Supported by ads.");
+      changeNameTo("Slug Course Map");
+      changeUseTo("Utility App for UCSC");
+      changeStatusTo("App/Play Store Status - Pending");
+      changeDescriptionTo("A utility app for UCSC. Complete with campus maps, academic tools & trackers, directories, course & professor reviews, and more. Supported by ads.");
       break;
     case "weed":
       changeNameTo("Healthc");
