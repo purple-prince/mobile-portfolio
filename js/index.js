@@ -122,18 +122,89 @@ function changeText(txt) {
   function changeNameTo(txt) {
     var txtToChange = document.getElementById("port-desc-name");
     txtToChange.innerHTML = txt
-    if(txt === "Monopoly Stats & Info") { gcImg.style.opacity = "0.2"; } else { gcImg.style.opacity = "1.0"; }
-    if(txt === "Healthc") { swiftImg.style.opacity = "0.2"; } else { swiftImg.style.opacity = "1.0"; }
-    if(txt === "Healthc") { swiftuiImg.style.opacity = "0.2"; } else { swiftuiImg.style.opacity = "1.0"; }
-    if(txt === "Healthc") { cocoaImg.style.opacity = "0.2"; } else { cocoaImg.style.opacity = "1.0"; }
-    if(txt === "Monopoly Stats & Info" || txt === "The Game of Life") { splineImg.style.opacity = "0.2"; } else { splineImg.style.opacity = "1.0"; }
-    if(txt === "") { sketchImg.style.opacity = "0.2"; } else { sketchImg.style.opacity = "1.0"; }
-    if(txt === "Monopoly Stats & Info" || txt === "LT Students" || txt == "The Game of Life") { coremlImg.style.opacity = "0.2"; } else { coremlImg.style.opacity = "1.0"; }
-    if(txt === "Monopoly Stats & Info" || txt === "Healthc") { icloudImg.style.opacity = "0.2"; } else { icloudImg.style.opacity = "1.0"; }
-    if(txt === "Monopoly Stats & Info" || txt === "The Game of Life") { pythonImg.style.opacity = "0.2"; } else { pythonImg.style.opacity = "1.0"; }
-    if(txt === "Monopoly Stats & Info" || txt === "The Game of Life" || txt === "LT Students") { androidImg.style.opacity = "0.2"; } else { androidImg.style.opacity = "1.0"; }
-    if(txt === "Monopoly Stats & Info" || txt === "The Game of Life" || txt === "LT Students") { javaImg.style.opacity = "0.2"; } else { javaImg.style.opacity = "1.0"; }
-    if(txt === "Healthc") { appstoreImg.style.opacity = "0.2"; } else { appstoreImg.style.opacity = "1.0"; }
+
+      var gcImg = document.getElementById("port-gc");
+  var swiftImg = document.getElementById("port-swift");
+  var swiftuiImg = document.getElementById("port-swiftui");
+  var cocoaImg = document.getElementById("port-cocoa");
+  var splineImg = document.getElementById("port-spline");
+  var sketchImg = document.getElementById("port-sketch");
+  var coremlImg = document.getElementById("port-coreml");
+  var icloudImg = document.getElementById("port-icloud");
+  var androidImg = document.getElementById("port-android");
+  var pythonImg = document.getElementById("port-python");
+  var javaImg = document.getElementById("port-java");
+  var appstoreImg = document.getElementById("port-appstore");
+
+
+    if(txt === "LT Students") {
+       gcImg.style.opacity = "1.0";
+       swiftImg.style.opacity = "1.0";
+       swiftuiImg.style.opacity = "1.0";
+       cocoaImg.style.opacity = "1.0";
+       splineImg.style.opacity = "1.0";
+       sketchImg.style.opacity = "1.0";
+       icloudImg.style.opacity = "1.0";
+       androidImg.style.opacity = "0.2";
+       pythonImg.style.opacity = "1.0";
+       javaImg.style.opacity = "0.2";
+       appstoreImg.style.opacity = "1.0";
+    }
+
+    if(txt === "Slug Course Map") {
+       gcImg.style.opacity = "1.0";
+       swiftImg.style.opacity = "1.0";
+       swiftuiImg.style.opacity = "1.0";
+       cocoaImg.style.opacity = "0.2";
+       splineImg.style.opacity = "1.0";
+       sketchImg.style.opacity = "1.0";
+       icloudImg.style.opacity = "0.2";
+       androidImg.style.opacity = "1.0";
+       pythonImg.style.opacity = "1.0";
+       javaImg.style.opacity = "0.2";
+       appstoreImg.style.opacity = "1.0";
+    }
+
+    if(txt === "The Game of Life") {
+       gcImg.style.opacity = "0.2";
+       swiftImg.style.opacity = "1.0";
+       swiftuiImg.style.opacity = "1.0";
+       cocoaImg.style.opacity = "1.0";
+       splineImg.style.opacity = "1.0";
+       sketchImg.style.opacity = "1.0";
+       icloudImg.style.opacity = "0.2";
+       androidImg.style.opacity = "0.2";
+       pythonImg.style.opacity = "0.2";
+       javaImg.style.opacity = "0.2";
+       appstoreImg.style.opacity = "1.0";
+    }
+
+    if(txt === "Healthc") {
+       gcImg.style.opacity = "1.0";
+       swiftImg.style.opacity = "0.2";
+       swiftuiImg.style.opacity = "0.2";
+       cocoaImg.style.opacity = "0.2";
+       splineImg.style.opacity = "1.0";
+       sketchImg.style.opacity = "1.0";
+       icloudImg.style.opacity = "0.2";
+       androidImg.style.opacity = "1.0";
+       pythonImg.style.opacity = "1.0";
+       javaImg.style.opacity = "1.0";
+       appstoreImg.style.opacity = "0.2";
+    }
+    
+    // if(txt === "Monopoly Stats & Info") { gcImg.style.opacity = "0.2"; } else { gcImg.style.opacity = "1.0"; }
+    // if(txt === "Healthc") { swiftImg.style.opacity = "0.2"; } else { swiftImg.style.opacity = "1.0"; }
+    // if(txt === "Healthc") { swiftuiImg.style.opacity = "0.2"; } else { swiftuiImg.style.opacity = "1.0"; }
+    // if(txt === "Healthc") { cocoaImg.style.opacity = "0.2"; } else { cocoaImg.style.opacity = "1.0"; }
+    // if(txt === "Monopoly Stats & Info" || txt === "The Game of Life") { splineImg.style.opacity = "0.2"; } else { splineImg.style.opacity = "1.0"; }
+    // if(txt === "") { sketchImg.style.opacity = "0.2"; } else { sketchImg.style.opacity = "1.0"; }
+    // if(txt === "Monopoly Stats & Info" || txt === "LT Students" || txt == "The Game of Life") { coremlImg.style.opacity = "0.2"; } else { coremlImg.style.opacity = "1.0"; }
+    // if(txt === "Monopoly Stats & Info" || txt === "Healthc") { icloudImg.style.opacity = "0.2"; } else { icloudImg.style.opacity = "1.0"; }
+    // if(txt === "Monopoly Stats & Info" || txt === "The Game of Life") { pythonImg.style.opacity = "0.2"; } else { pythonImg.style.opacity = "1.0"; }
+    // if(txt === "Monopoly Stats & Info" || txt === "The Game of Life" || txt === "LT Students") { androidImg.style.opacity = "0.2"; } else { androidImg.style.opacity = "1.0"; }
+    // if(txt === "Monopoly Stats & Info" || txt === "The Game of Life" || txt === "LT Students") { javaImg.style.opacity = "0.2"; } else { javaImg.style.opacity = "1.0"; }
+    // if(txt === "Healthc") { appstoreImg.style.opacity = "0.2"; } else { appstoreImg.style.opacity = "1.0"; }
   }
 }
 
