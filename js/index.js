@@ -82,7 +82,7 @@ function changeText(txt) {
       changeDescriptionTo("A general purpose social media app created for my high school and it's community. Complete with news, polls, r/w posts, events. I learned about back-end architecture in a complex social media app, as well as how to implement a CMS. Supported by ads.");
       break;
     case "monopoly":
-      changeNameTo("Slug Course Map");
+      changeNameTo("Slugly");
       changeUseTo("Utility App for UCSC");
       changeStatusTo("App/Play Store Status - Pending");
       changeDescriptionTo("A utility app for UCSC. Complete with campus maps, academic tools & trackers, directories, course & professor reviews, and more. Supported by ads.");
@@ -151,7 +151,7 @@ function changeText(txt) {
        appstoreImg.style.opacity = "1.0";
     }
 
-    if(txt === "Slug Course Map") {
+    if(txt === "Slugly") {
        gcImg.style.opacity = "1.0";
        swiftImg.style.opacity = "1.0";
        swiftuiImg.style.opacity = "1.0";
