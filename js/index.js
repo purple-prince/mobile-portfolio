@@ -265,6 +265,7 @@ $(document).ready(function() {
       "Android",
       "Python",
       "Java",
+      "Supabase
       "Play/App Store"
     ];
 
