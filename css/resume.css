@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is for the resume container specifically */
+.resume-container {
+    width: 100%; /* Adjust this as needed */
+    max-width: 800px; /* Adjust based on your preference and the size of the image */
+    margin: auto; /* This will help in center alignment */
+    padding: 20px; /* Add padding around the resume */
+    box-sizing: border-box;
+}
+
+/* Style for the image */
+.resume-container img {
+    width: 100%;
+    height: auto; /* This ensures the aspect ratio is maintained */
+    display: block; /* Removes any default inline spacing */
+    margin: auto; /* Center the image within the container */
+}
+
+.pdf-container p {
+    text-align: center; /* Center-align text */
+    color: wheat; /* Text color */
+    /* Other styling options as needed */
+
+    width: 80%; /* Or any specific width you prefer */
+    max-width: 800px; /* Adjust this value based on your design */
+    margin: auto; /* This centers the container */
+  }
+.pdf-container embed {
+    width: 100%;
+    height: 800px; /* Adjust the height as needed */
+}
+
+.pdf-container p {
+    color: wheat; /* Style for the fallback text */
+    opacity: 0.4;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
