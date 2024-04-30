@@ -256,7 +256,7 @@ $(document).ready(function() {
       "Swift",
       "SwiftUI",
       "Cocoa",
-      "3D Design",
+      "visionOS",
       "Sketch",
       "Google Cloud",
       "AR/VR",
@@ -267,7 +267,8 @@ $(document).ready(function() {
       "Java",
       "Supabase",
       "React",
-      "Play/App Store"
+      "Play/App Store",
+      "C"
     ];
 
     // var tagCloud = TagCloud('.content', myTags);
